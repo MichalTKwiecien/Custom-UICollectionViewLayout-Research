@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		7CA8304F20A0411700835E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8304E20A0411700835E47 /* AppDelegate.swift */; };
-		7CA8305120A0411700835E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8305020A0411700835E47 /* ViewController.swift */; };
 		7CA8305420A0411700835E47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA8305220A0411700835E47 /* Main.storyboard */; };
 		7CA8305620A0411900835E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA8305520A0411900835E47 /* Assets.xcassets */; };
 		7CA8305920A0411900835E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA8305720A0411900835E47 /* LaunchScreen.storyboard */; };
+		7CA8306320A046DA00835E47 /* SnappingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8306220A046DA00835E47 /* SnappingViewController.swift */; };
+		7CA8306520A046FF00835E47 /* SnappingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8306420A046FF00835E47 /* SnappingFlowLayout.swift */; };
+		7CA8306820A048E600835E47 /* SnappingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8306720A048E600835E47 /* SnappingCollectionViewCell.swift */; };
+		7CA8306C20A05B8800835E47 /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8306B20A05B8800835E47 /* ParallaxViewController.swift */; };
+		7CA8306E20A05B9D00835E47 /* ParallaxFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8306D20A05B9D00835E47 /* ParallaxFlowLayout.swift */; };
+		7CA8307020A0610400835E47 /* ParallaxLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8306F20A0610400835E47 /* ParallaxLayoutAttributes.swift */; };
+		7CA8307220A068D500835E47 /* ParallaxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8307120A068D500835E47 /* ParallaxCollectionViewCell.swift */; };
+		7CA8307620A06E0F00835E47 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8307520A06E0F00835E47 /* CarouselViewController.swift */; };
+		7CA8307820A06E2100835E47 /* CarouselLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8307720A06E2100835E47 /* CarouselLayout.swift */; };
+		7CA8307A20A06E3400835E47 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8307920A06E3400835E47 /* CarouselCollectionViewCell.swift */; };
+		7CA8307D20A089B200835E47 /* SwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA8307C20A089B200835E47 /* SwapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7CA8304B20A0411700835E47 /* Custom Flow Layout Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Flow Layout Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA8304E20A0411700835E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CA8305020A0411700835E47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CA8305320A0411700835E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CA8305520A0411900835E47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CA8305820A0411900835E47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA8305A20A0411900835E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CA8306220A046DA00835E47 /* SnappingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingViewController.swift; sourceTree = "<group>"; };
+		7CA8306420A046FF00835E47 /* SnappingFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingFlowLayout.swift; sourceTree = "<group>"; };
+		7CA8306720A048E600835E47 /* SnappingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CA8306B20A05B8800835E47 /* ParallaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewController.swift; sourceTree = "<group>"; };
+		7CA8306D20A05B9D00835E47 /* ParallaxFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxFlowLayout.swift; sourceTree = "<group>"; };
+		7CA8306F20A0610400835E47 /* ParallaxLayoutAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxLayoutAttributes.swift; sourceTree = "<group>"; };
+		7CA8307120A068D500835E47 /* ParallaxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CA8307520A06E0F00835E47 /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		7CA8307720A06E2100835E47 /* CarouselLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselLayout.swift; sourceTree = "<group>"; };
+		7CA8307920A06E3400835E47 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CA8307C20A089B200835E47 /* SwapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +75,71 @@
 			isa = PBXGroup;
 			children = (
 				7CA8304E20A0411700835E47 /* AppDelegate.swift */,
-				7CA8305020A0411700835E47 /* ViewController.swift */,
+				7CA8307320A06DD600835E47 /* Modules */,
+				7CA8306120A046BB00835E47 /* Resources */,
+			);
+			path = "Custom Flow Layout Test";
+			sourceTree = "<group>";
+		};
+		7CA8306020A046B100835E47 /* Snapping */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8306220A046DA00835E47 /* SnappingViewController.swift */,
+				7CA8306420A046FF00835E47 /* SnappingFlowLayout.swift */,
+				7CA8306720A048E600835E47 /* SnappingCollectionViewCell.swift */,
+			);
+			path = Snapping;
+			sourceTree = "<group>";
+		};
+		7CA8306120A046BB00835E47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				7CA8305220A0411700835E47 /* Main.storyboard */,
 				7CA8305520A0411900835E47 /* Assets.xcassets */,
 				7CA8305720A0411900835E47 /* LaunchScreen.storyboard */,
 				7CA8305A20A0411900835E47 /* Info.plist */,
 			);
-			path = "Custom Flow Layout Test";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CA8306A20A05B5E00835E47 /* Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8306B20A05B8800835E47 /* ParallaxViewController.swift */,
+				7CA8306D20A05B9D00835E47 /* ParallaxFlowLayout.swift */,
+				7CA8306F20A0610400835E47 /* ParallaxLayoutAttributes.swift */,
+				7CA8307120A068D500835E47 /* ParallaxCollectionViewCell.swift */,
+			);
+			path = Parallax;
+			sourceTree = "<group>";
+		};
+		7CA8307320A06DD600835E47 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8306020A046B100835E47 /* Snapping */,
+				7CA8307420A06DEF00835E47 /* Carousel */,
+				7CA8306A20A05B5E00835E47 /* Parallax */,
+				7CA8307B20A0890B00835E47 /* Swap layout */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7CA8307420A06DEF00835E47 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8307520A06E0F00835E47 /* CarouselViewController.swift */,
+				7CA8307720A06E2100835E47 /* CarouselLayout.swift */,
+				7CA8307920A06E3400835E47 /* CarouselCollectionViewCell.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		7CA8307B20A0890B00835E47 /* Swap layout */ = {
+			isa = PBXGroup;
+			children = (
+				7CA8307C20A089B200835E47 /* SwapViewController.swift */,
+			);
+			path = "Swap layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA8305120A0411700835E47 /* ViewController.swift in Sources */,
+				7CA8306320A046DA00835E47 /* SnappingViewController.swift in Sources */,
+				7CA8307D20A089B200835E47 /* SwapViewController.swift in Sources */,
+				7CA8307020A0610400835E47 /* ParallaxLayoutAttributes.swift in Sources */,
+				7CA8306520A046FF00835E47 /* SnappingFlowLayout.swift in Sources */,
+				7CA8306C20A05B8800835E47 /* ParallaxViewController.swift in Sources */,
+				7CA8306820A048E600835E47 /* SnappingCollectionViewCell.swift in Sources */,
+				7CA8307A20A06E3400835E47 /* CarouselCollectionViewCell.swift in Sources */,
+				7CA8307820A06E2100835E47 /* CarouselLayout.swift in Sources */,
 				7CA8304F20A0411700835E47 /* AppDelegate.swift in Sources */,
+				7CA8307220A068D500835E47 /* ParallaxCollectionViewCell.swift in Sources */,
+				7CA8307620A06E0F00835E47 /* CarouselViewController.swift in Sources */,
+				7CA8306E20A05B9D00835E47 /* ParallaxFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +368,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Custom Flow Layout Test/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Custom Flow Layout Test/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kwiecien.Custom-Flow-Layout-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,14 +387,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Custom Flow Layout Test/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Custom Flow Layout Test/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kwiecien.Custom-Flow-Layout-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
