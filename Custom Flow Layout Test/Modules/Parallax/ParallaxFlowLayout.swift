@@ -10,7 +10,7 @@ import UIKit
 
 class ParallaxFlowLayout: UICollectionViewLayout {
     
-    private var firstStupDone = false
+    private var firstSetupDone = false
     private var cache = [IndexPath: ParallaxLayoutAttributes]()
     private var visibleLayoutAttributes = [ParallaxLayoutAttributes]()
     private var contentWidth: CGFloat = 0
@@ -24,9 +24,9 @@ class ParallaxFlowLayout: UICollectionViewLayout {
     
     override func prepare() {
         super.prepare()
-        if !firstStupDone {
+        if !firstSetupDone {
             setup()
-            firstStupDone = true
+            firstSetupDone = true
         }
         
         cache.removeAll(keepingCapacity: true)

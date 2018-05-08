@@ -10,15 +10,15 @@ import UIKit
 
 class CarouselFlowLayout: UICollectionViewFlowLayout {
     
-    private var firstStupDone = false
+    private var firstSetupDone = false
     private let smallItemScale: CGFloat = 0.5
     private let smallItemAlpha: CGFloat = 0.2
     
     override func prepare() {
         super.prepare()
-        if !firstStupDone {
+        if !firstSetupDone {
             setup()
-            firstStupDone = true
+            firstSetupDone = true
         }
     }
     

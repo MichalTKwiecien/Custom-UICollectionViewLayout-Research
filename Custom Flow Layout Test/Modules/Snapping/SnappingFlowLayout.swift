@@ -10,13 +10,13 @@ import UIKit
 
 class SnappingFlowLayout: UICollectionViewFlowLayout {
     
-    private var firstStupDone = false
+    private var firstSetupDone = false
     
     override func prepare() {
         super.prepare()
-        if !firstStupDone {
+        if !firstSetupDone {
             setup()
-            firstStupDone = true
+            firstSetupDone = true
         }
     }
     
